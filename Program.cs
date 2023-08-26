@@ -11,10 +11,10 @@ namespace congestion.calculator
             CongestionTaxCalculator calculator = new CongestionTaxCalculator();
 
             DateTime[] passages = {
-                //new DateTime(2013,1, 14, 21, 00, 00),
-                //new DateTime(2013,1, 15, 21, 00, 00),
-                //new DateTime(2013,2, 7, 6, 23, 27),
-                //new DateTime(2013,2, 7, 15, 27, 00),
+                new DateTime(2013,1, 14, 21, 00, 00),
+                new DateTime(2013,1, 15, 21, 00, 00),
+                new DateTime(2013,2, 7, 6, 23, 27),
+                new DateTime(2013,2, 7, 15, 27, 00),
                 new DateTime(2013,2, 8, 6, 27, 00),
                 new DateTime(2013,2, 8, 6, 20, 27),
                 new DateTime(2013,2, 8, 14, 35, 00),
@@ -25,8 +25,8 @@ namespace congestion.calculator
                 new DateTime(2013,2, 8, 17, 49, 00),
                 new DateTime(2013,2, 8, 18, 29, 00),
                 new DateTime(2013,2, 8, 18, 35, 00),
-                //new DateTime(2013,3, 26, 14, 25, 00),
-                //new DateTime(2013,3, 28, 14, 7, 27)
+                new DateTime(2013,3, 26, 14, 25, 00),
+                new DateTime(2013,3, 28, 14, 7, 27)
 
             };
 
